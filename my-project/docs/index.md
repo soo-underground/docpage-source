@@ -1,15 +1,14 @@
 # Welcome to test doc site
 
-Built using MKDocs [mkdocs.org](http://mkdocs.org).
+# Welcome page
+This is a test docpage, here I try to create a mockup documentation website.
 
-## Test chapter
-* fuck
-* my
-* life
+<!-- Right now I'm trying to document an API of an imaginary note service. -->
 
-test table:
+[API access](api.md) should have all the details about using the API.
 
-one | two | three
------------- | ------------- | ------------
-1 | 2  | 3
-i | ii  | iii
+<!-- API endpoints should be an example on how to document a particular api methods.-->
+
+##Technical info:
+The website is written in markdown, all the source files are [in a separate repository](https://github.com/soo-underground/docpage-source).
+It's all built together using MKDocs [mkdocs.org](http://mkdocs.org) and hosted w/ Github Pages.
