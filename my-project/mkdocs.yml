@@ -1,12 +1,12 @@
 site_name: Test Doc Webpage
 pages:
   - Home: index.md
-  - Tabs: tabs.md
-  - About: markdown.md
+#  - About: markdown.md
   - Access API: api.md
   - API endpoints:
     - user: api-userinfo.md
     - docs: api-getnote.md
+  - Tabs: tabs.md
 theme: material
 extra_css:
   - css/code-tabs.css
@@ -14,4 +14,4 @@ extra_javascript:
   - js/code-tabs.js
 markdown_extensions:
   - markdown_fenced_code_tabs:
-      single_block_as_tab: True
+      single_block_as_tab: False
