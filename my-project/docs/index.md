@@ -5,7 +5,7 @@ This is a test docpage, here I try to create a mockup documentation website.
 
 <!-- Right now I'm trying to document an API of an imaginary note service. -->
 
-[API access](api.md) should have all the details about using the API.
+[API access](api.md) should have all the details about using the API of an imaginary web service.
 
 <!-- API endpoints should be an example on how to document a particular api methods.-->
 
