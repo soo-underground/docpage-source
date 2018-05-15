@@ -2,43 +2,23 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to test doc site\n\n\nBuilt using MKDocs \nmkdocs.org\n.\n\n\nTest chapter\n\n\n\n\nfuck\n\n\nmy\n\n\nlife\n\n\n\n\ntest table:\n\n\n\n\n\n\n\n\none\n\n\ntwo\n\n\nthree\n\n\n\n\n\n\n\n\n\n\n1\n\n\n2\n\n\n3\n\n\n\n\n\n\ni\n\n\nii\n\n\niii",
+            "text": "Welcome to test doc site\n\n\nWelcome page\n\n\nThis is a test docpage, here I try to create a mockup documentation website.\n\n\n\n\n\nAPI access\n should have all the details about using the API.\n\n\n\n\n\nTechnical info:\n\n\nThe website is written in markdown, all the source files are \nin a separate repository\n.\nIt's all built together using MKDocs \nmkdocs.org\n and hosted w/ Github Pages.",
             "title": "Home"
         },
         {
             "location": "/#welcome-to-test-doc-site",
-            "text": "Built using MKDocs  mkdocs.org .",
+            "text": "",
             "title": "Welcome to test doc site"
         },
         {
-            "location": "/#test-chapter",
-            "text": "fuck  my  life   test table:     one  two  three      1  2  3    i  ii  iii",
-            "title": "Test chapter"
+            "location": "/#welcome-page",
+            "text": "This is a test docpage, here I try to create a mockup documentation website.   API access  should have all the details about using the API.",
+            "title": "Welcome page"
         },
         {
-            "location": "/tabs/",
-            "text": "Trying to create tabs in markdown\n\n\n\n                \n\n                    \n        \n\n            \n        \n\n            \nHttp\n\n        \n\n    \n        \n\n            \nShell\n\n        \n\n    \n        \n\n            \nRuby\n\n        \n\n    \n        \n\n    \n        \n\n            \n        \n\n            \nGET / HTTP/1.1\nUser-Agent: MyClient/1.0.0\nAccept: application/vnd.travis-ci.2+json\nHost: api.travis-ci.org\n\nHTTP/1.1 200 OK\nContent-Type: application/json\n\n{\"hello\":\"world\"}\n\n\n        \n\n    \n        \n\n            \n$ travis raw /\n{\"hello\":\"world\"}\n\n\n        \n\n    \n        \n\n            \nrequire 'travis'\n\n# You usually don't want to fire API requests manually\nclient = Travis::Client.new\nclient.get_raw('/') # => {\"hello\"=>\"world\"}\n\nclient.get('/repos/sinatra/sinatra')\n# => {\"repo\"=>#<Travis::Client::Repository: sinatra/sinatra>}",
-            "title": "Tabs"
-        },
-        {
-            "location": "/tabs/#trying-to-create-tabs-in-markdown",
-            "text": "Http \n         \n    \n         \n             Shell \n         \n    \n         \n             Ruby \n         \n    \n         \n    \n         \n            \n         \n             GET / HTTP/1.1\nUser-Agent: MyClient/1.0.0\nAccept: application/vnd.travis-ci.2+json\nHost: api.travis-ci.org\n\nHTTP/1.1 200 OK\nContent-Type: application/json\n\n{\"hello\":\"world\"} \n         \n    \n         \n             $ travis raw /\n{\"hello\":\"world\"} \n         \n    \n         \n             require 'travis'\n\n# You usually don't want to fire API requests manually\nclient = Travis::Client.new\nclient.get_raw('/') # => {\"hello\"=>\"world\"}\n\nclient.get('/repos/sinatra/sinatra')\n# => {\"repo\"=>#<Travis::Client::Repository: sinatra/sinatra>}",
-            "title": "Trying to create tabs in markdown"
-        },
-        {
-            "location": "/markdown/",
-            "text": "test About page\n\n\n## test subchapter 1\n\n\ntest text.\n\n\ntest subchapter 2\n\n\nanother test text",
-            "title": "About"
-        },
-        {
-            "location": "/markdown/#test-about-page",
-            "text": "## test subchapter 1  test text.",
-            "title": "test About page"
-        },
-        {
-            "location": "/markdown/#test-subchapter-2",
-            "text": "another test text",
-            "title": "test subchapter 2"
+            "location": "/#technical-info",
+            "text": "The website is written in markdown, all the source files are  in a separate repository .\nIt's all built together using MKDocs  mkdocs.org  and hosted w/ Github Pages.",
+            "title": "Technical info:"
         },
         {
             "location": "/api/",
@@ -57,7 +37,7 @@
         },
         {
             "location": "/api-userinfo/",
-            "text": "This method allows you to get all info about user's account\n\n\nRequest syntax\n\n\nhttps://api.mywebsite.com/userinfo?uid=<user_id>\n\nquery parameters:\n  uid -- User Id\n\n\nResponse syntax\n\n\n\n\n\n\n\n\nParameter\n\n\nInfo\n\n\nType\n\n\n\n\n\n\n\n\n\n\nuid\n\n\nuser id\n\n\ninteger\n\n\n\n\n\n\nage\n\n\nuser's age\n\n\ninteger\n\n\n\n\n\n\ntext\n\n\nuser's description\n\n\nstring\n\n\n\n\n\n\n\n\nRequest example\n\n\nhttps://api.mywebsite.com/userinfo?uid=124334426\n\n\nResponse example\n\n\n\n                \n\n                    \n        \n\n            \n        \n\n            \nJSON\n\n        \n\n    \n        \n\n    \n        \n\n            \n        \n\n            \nuser:\n  {\n    uid:124334426,\n    age:21,\n    text: 'test text'\n  }",
+            "text": "This method allows you to get all info about user's account\n\n\nRequest syntax\n\n\nhttps://api.mywebsite.com/userinfo?uid=<user_id>\n\nquery parameters:\n  uid -- User Id\n\n\nResponse syntax\n\n\n\n\n\n\n\n\nParameter\n\n\nInfo\n\n\nType\n\n\n\n\n\n\n\n\n\n\nuid\n\n\nuser id\n\n\ninteger\n\n\n\n\n\n\nage\n\n\nuser's age\n\n\ninteger\n\n\n\n\n\n\ntext\n\n\nuser's description\n\n\nstring\n\n\n\n\n\n\n\n\nRequest example\n\n\nhttps://api.mywebsite.com/userinfo?uid=124334426\n\n\nResponse example\n\n\nuser:\n  {\n    uid:124334426,\n    age:21,\n    text: 'test text'\n  }",
             "title": "user"
         },
         {
@@ -77,12 +57,12 @@
         },
         {
             "location": "/api-userinfo/#response-example",
-            "text": "JSON \n         \n    \n         \n    \n         \n            \n         \n             user:\n  {\n    uid:124334426,\n    age:21,\n    text: 'test text'\n  }",
+            "text": "user:\n  {\n    uid:124334426,\n    age:21,\n    text: 'test text'\n  }",
             "title": "Response example"
         },
         {
             "location": "/api-getnote/",
-            "text": "This method allows you to get a user's note\n\n\nRequest syntax\n\n\nEvery user has note id's starts from 00001. To access particular note you have to put doth user's and note's ids in query parameters.\n\nhttps://api.mywebsite.com/userinfo?uid=<user_id>&nid=<note_id>\n\nquery parameters:\n  uid -- User ID.\n  nid -- Note number.\n\n\nResponse syntax\n\n\n\n\n\n\n\n\nParameter\n\n\nInfo\n\n\nType\n\n\n\n\n\n\n\n\n\n\nnid\n\n\nuser id\n\n\ninteger\n\n\n\n\n\n\ntitle\n\n\nnote's title\n\n\nstring\n\n\n\n\n\n\ntext\n\n\nnote's body\n\n\nstring\n\n\n\n\n\n\n\n\nRequest example\n\n\nhttps://api.mywebsite.com/userinfo?uid=124334426&nid=00012\n\n\nResponse example\n\n\n\n                \n\n                    \n        \n\n            \n        \n\n            \nJSON\n\n        \n\n    \n        \n\n    \n        \n\n            \n        \n\n            \nnote:\n  {\n    nid:00012,\n    title:'my note',\n    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'\n  }",
+            "text": "This method allows you to get a user's note\n\n\nRequest syntax\n\n\nEvery user has note id's starts from 00001. To access particular note you have to put doth user's and note's ids in query parameters.\n\nhttps://api.mywebsite.com/userinfo?uid=<user_id>&nid=<note_id>\n\nquery parameters:\n  uid -- User ID.\n  nid -- Note number.\n\n\nResponse syntax\n\n\n\n\n\n\n\n\nParameter\n\n\nInfo\n\n\nType\n\n\n\n\n\n\n\n\n\n\nnid\n\n\nuser id\n\n\ninteger\n\n\n\n\n\n\ntitle\n\n\nnote's title\n\n\nstring\n\n\n\n\n\n\ntext\n\n\nnote's body\n\n\nstring\n\n\n\n\n\n\n\n\nRequest example\n\n\nhttps://api.mywebsite.com/userinfo?uid=124334426&nid=00012\n\n\nResponse example\n\n\nnote:\n  {\n    nid:00012,\n    title:'my note',\n    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'\n  }",
             "title": "docs"
         },
         {
@@ -102,8 +82,18 @@
         },
         {
             "location": "/api-getnote/#response-example",
-            "text": "JSON \n         \n    \n         \n    \n         \n            \n         \n             note:\n  {\n    nid:00012,\n    title:'my note',\n    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'\n  }",
+            "text": "note:\n  {\n    nid:00012,\n    title:'my note',\n    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'\n  }",
             "title": "Response example"
+        },
+        {
+            "location": "/tabs/",
+            "text": "Trying to create tabs in markdown\n\n\n\n                \n\n                    \n        \n\n            \n        \n\n            \nHttp\n\n        \n\n    \n        \n\n            \nShell\n\n        \n\n    \n        \n\n            \nRuby\n\n        \n\n    \n        \n\n    \n        \n\n            \n        \n\n            \nGET / HTTP/1.1\nUser-Agent: MyClient/1.0.0\nAccept: application/vnd.travis-ci.2+json\nHost: api.travis-ci.org\n\nHTTP/1.1 200 OK\nContent-Type: application/json\n\n{\"hello\":\"world\"}\n\n\n        \n\n    \n        \n\n            \n$ travis raw /\n{\"hello\":\"world\"}\n\n\n        \n\n    \n        \n\n            \nrequire 'travis'\n\n# You usually don't want to fire API requests manually\nclient = Travis::Client.new\nclient.get_raw('/') # => {\"hello\"=>\"world\"}\n\nclient.get('/repos/sinatra/sinatra')\n# => {\"repo\"=>#<Travis::Client::Repository: sinatra/sinatra>}",
+            "title": "Tabs"
+        },
+        {
+            "location": "/tabs/#trying-to-create-tabs-in-markdown",
+            "text": "Http \n         \n    \n         \n             Shell \n         \n    \n         \n             Ruby \n         \n    \n         \n    \n         \n            \n         \n             GET / HTTP/1.1\nUser-Agent: MyClient/1.0.0\nAccept: application/vnd.travis-ci.2+json\nHost: api.travis-ci.org\n\nHTTP/1.1 200 OK\nContent-Type: application/json\n\n{\"hello\":\"world\"} \n         \n    \n         \n             $ travis raw /\n{\"hello\":\"world\"} \n         \n    \n         \n             require 'travis'\n\n# You usually don't want to fire API requests manually\nclient = Travis::Client.new\nclient.get_raw('/') # => {\"hello\"=>\"world\"}\n\nclient.get('/repos/sinatra/sinatra')\n# => {\"repo\"=>#<Travis::Client::Repository: sinatra/sinatra>}",
+            "title": "Trying to create tabs in markdown"
         }
     ]
 }

@@ -11,22 +11,6 @@
 
     
     <url>
-     <loc>/tabs/</loc>
-     <lastmod>2018-05-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/markdown/</loc>
-     <lastmod>2018-05-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>/api/</loc>
      <lastmod>2018-05-14</lastmod>
      <changefreq>daily</changefreq>
@@ -47,6 +31,14 @@
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+    <url>
+     <loc>/tabs/</loc>
+     <lastmod>2018-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>
