@@ -11,3 +11,6 @@ another test text
 
 how this page works (for now):
 ![Screenshot](img/scheme.png)
+
+my plan:
+![Screenshot](img/scheme-plan.png)
