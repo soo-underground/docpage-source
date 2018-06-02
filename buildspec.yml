@@ -8,6 +8,7 @@ phases:
       - pip install mkdocs
       - mkdocs --version
       - pip install mkdocs-material
+      - pip install markdown-fenced-code-tabs
   pre_build:
     commands:
       - echo Entered the pre_build phase...
