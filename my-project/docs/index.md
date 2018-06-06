@@ -1,7 +1,7 @@
 # Welcome to test doc site
 
 # Welcome page
-This is a test docpage, here I try to create a mockup documentation website.
+This is a test docpage, here I am trying to create a documentation website.
 
 <!-- Right now I'm trying to document an API of an imaginary note service. -->
 
