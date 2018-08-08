@@ -1,12 +1,17 @@
 site_name: Test Doc Webpage
 pages:
   - Home: index.md
-  - Access API: api.md
-  - API endpoints:
-    - user: api-userinfo.md
-    - docs: api-getnote.md
-  - About: markdown.md
-  - Tabs: tabs.md
+  - Engine: docengine.md
+    - MKdocs: mkdocs.md
+    - Extentions: extentions.md
+    - CSS and JS: cssandjs.md
+  - Continuous integration: ci.md
+    - Scheme: markdown.md
+    - Buildapp: buildapp.md
+      - API endpoints: api-userinfo.md
+    - Build scripts: bash.md
+  - Changelog: changelog.md
+  - Contacts: contacts.md
 theme: material
 extra_css:
   - css/code-tabs.css
