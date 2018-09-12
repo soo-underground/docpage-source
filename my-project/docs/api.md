@@ -3,9 +3,7 @@
 Built using MKDocs [mkdocs.org](http://mkdocs.org).
 
 ## Test chapter
-* fuck
-* my
-* life
+
 
 test table:
 
