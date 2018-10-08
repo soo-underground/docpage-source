@@ -3,6 +3,7 @@ nav:
   - Home: 'index.md'
   - Engine: #'docengine.md '
     - MKdocs: 'mkdocs.md'
+    - Getting started: 'quickstart.md'
 #    - Extentions: 'extentions.md'
 #    - CSS and JS: 'cssandjs.md'
   - Continuous integration: #'ci.md'
@@ -17,7 +18,7 @@ extra_css:
   - css/code-tabs.css
 extra_javascript:
   - js/code-tabs.js
-markdown_extensions:
-  - markdown_fenced_code_tabs:
-      single_block_as_tab: False
+# markdown_extensions:
+#   - markdown_fenced_code_tabs:
+#      single_block_as_tab: False
 # site_dir: ../../soo-underground.github.io
