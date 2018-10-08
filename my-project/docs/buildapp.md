@@ -16,7 +16,7 @@ The whole workflow for any changes on this pages works like this:
 Here's a rough scheme of the whole process:
 ![Screenshot](img/scheme-3.png)
 
-## Heroku app
+<!--## Heroku app
 
 1. retrieving sources
 ```
