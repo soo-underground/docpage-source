@@ -1,4 +1,6 @@
-<!--## Heroku app
+<!--
+
+## Heroku app
 
 1. retrieving sources
 ```
@@ -32,10 +34,4 @@ git push --force origin master
 echo "artifacts pushed"
 ```
 
-
-<details>
-<summary>scheme</summary>
-<br>
-![Screenshot](img/scheme-3.png)
-</details>
--->
+--/>
