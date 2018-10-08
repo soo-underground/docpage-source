@@ -1,4 +1,4 @@
-# Trying to create tabs in markdown
+<!-- # Trying to create tabs in markdown
 
 ```http
 GET / HTTP/1.1
@@ -27,3 +27,4 @@ client.get_raw('/') # => {"hello"=>"world"}
 client.get('/repos/sinatra/sinatra')
 # => {"repo"=>#<Travis::Client::Repository: sinatra/sinatra>}
 ```
+--/>

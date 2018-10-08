@@ -19,19 +19,19 @@ Here's a rough scheme of the whole process:
 ## Heroku app
 
 1. retrieving sources
-``
+```
 git clone https://github.com/soo-underground/docpage-source.git
-``
+```
 2. building mkdocs project
-``
+```
 cd docpage-source/my-project
 ls
 mkdocs build
 cd site
 ls
-``
+```
 3. pushing changes
-``
+```
 cd docpage-source/my-project/site
 ls
 git init
@@ -48,7 +48,7 @@ echo "password accepted, remote added"
 git remote -v
 git push --force origin master
 echo "artifacts pushed"
-``
+```
 
 
 <!-- <details>
