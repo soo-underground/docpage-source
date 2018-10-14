@@ -2,7 +2,6 @@
 This website is written in markdown and powered by [MkDocs](https://www.mkdocs.org).
 
 why markdown?
-#For a simple website that has exactly one contributor, [DITA XML](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) seems like an awfully complex tool.
 
 * easy to start
 * easy to modify css and even js
