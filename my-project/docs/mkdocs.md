@@ -1,7 +1,7 @@
 # MkDocs
 This website is written in markdown and powered by [MkDocs](https://www.mkdocs.org).
 
-why markdown?
+why markdown? 
 
 * easy to start
 * easy to modify css and even js
